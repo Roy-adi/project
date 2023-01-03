@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filpkart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="util.css">
+    <link rel="stylesheet" href="design.js">
+    <script src="design.js"></script>
+
+   </head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="flipkartlogo.png" alt=""></div>
+            <ul>
+                <li> <a href="Home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <div class="search">
+                    <input type="search" placeholder="Search here" name="name" id="name">
+                    <button onclick="Searching()" class="btn"> Search</button>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">More
+                        <!-- <i class="fa fa-caret-down"></i> -->
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#login">Login</a>
+                        <a href="#signup">SignUp</a>
+                        <hr>
+                        <a href="#">Notification</a>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <!-- <script type="text/javascript">
+        function Searching(){
+            alert("yes");
+        }
+    </script> -->
+    <main>
+        <div class="container">
+            <div class="slider">
+                <img src="https://source.unsplash.com/1000x500/?ecommerce" alt="">
+            </div>
+            <div class="card">
+                <h2 class="my1"> Laptop</h2>
+                <div class="cards">
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/160x160/?laptop" alt="">
+
+                        <div class="lines">
+                            <pre class="text-center my2">hp Laptop</pre>
+                            <pre class="text-center my2"> intel i5,12 Gen</pre>
+                        </div>
+                    </div>
+
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/160x160/?laptops" alt="">
+
+                        <div class="lines">
+                            <pre class="text-center my2">hp Laptop</pre>
+                            <pre class="text-center my2"> intel i5,12 Gen</pre>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/160x160/?macbook" alt="">
+
+                        <div class="lines">
+                            <pre class="text-center my2">hp Laptop</pre>
+                            <pre class="text-center my2"> intel i5,12 Gen</pre>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/160x160/?dell" alt="">
+
+                        <div class="lines">
+                            <pre class="text-center my2">hp Laptop</pre>
+                            <pre class="text-center my2"> intel i5,12 Gen</pre>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/160x160/?my laptop" alt="">
+
+                        <div class="lines">
+                            <pre class="text-center my2">hp Laptop</pre>
+                            <pre class="text-center my2"> intel i5,12 Gen</pre>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/160x160/?i5 laptops" alt="">
+
+                        <div class="lines">
+                            <pre class="text-center my2">hp Laptop</pre>
+                            <pre class="text-center my2"> intel i5,12 Gen</pre>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/160x160/?i7 laptops" alt="">
+
+                        <div class="lines">
+                            <pre class="text-center my2">hp Laptop</pre>
+                            <pre class="text-center my2"> intel i5,12 Gen</pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <h2 class="my1"> Electronics Product</h2>
+                <div class="cards">
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/160x160/?Electronic" alt="">
+
+                        <div class="lines">
+                            <pre class="text-center my2">Electronic</pre>
+                            <pre class="text-center my2">Flat Sale 20%</pre>
+                        </div>
+                    </div>
+
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/160x160/?Mobile" alt="">
+
+                        <div class="lines">
+                            <pre class="text-center my2">Mobile</pre>
+                            <pre class="text-center my2">sale 10%</pre>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/160x160/?Camera" alt="">
+
+                        <div class="lines">
+                            <pre class="text-center my2">DSLR</pre>
+                            <pre class="text-center my2">40% off</pre>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/160x160/?iphone" alt="">
+
+                        <div class="lines">
+                            <pre class="text-center my2">i-Phone</pre>
+                            <pre class="text-center my2">next Gen</pre>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/160x160/?smart Watch" alt="">
+
+                        <div class="lines">
+                            <pre class="text-center my2">Smart Watch</pre>
+                            <pre class="text-center my2">10% off</pre>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/160x160/?smart phone" alt="">
+
+                        <div class="lines">
+                            <pre class="text-center my2">Smart phone</pre>
+                            <pre class="text-center my2">Flat off 10%</pre>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/160x160/?headphone" alt="">
+
+                        <div class="lines">
+                            <pre class="text-center my2">Headphonre</pre>
+                            <pre class="text-center my2">10% off</pre>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card">
+                <h2 class="my1"> Grocery</h2>
+                <div class="cards">
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/160x160/?Grocery" alt="">
+
+                        <div class="lines">
+                            <pre class="text-center my2">Quality Product</pre>
+                            <pre class="text-center my2"> 50% off</pre>
+                        </div>
+                    </div>
+
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/160x160/?Rice" alt="">
+
+                        <div class="lines">
+                            <pre class="text-center my2">Rice</pre>
+                            <pre class="text-center my2"> 20% off</pre>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/160x160/?Grocery item" alt="">
+
+                        <div class="lines">
+                            <pre class="text-center my2">Quality Product</pre>
+                            <pre class="text-center my2"> 40% off</pre>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/160x160/?packed foods" alt="">
+
+                        <div class="lines">
+                            <pre class="text-center my2">Snacks</pre>
+                            <pre class="text-center my2"> 20% off</pre>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/160x160/?Fruits" alt="">
+
+                        <div class="lines">
+                            <pre class="text-center my2">Fruites</pre>
+                            <pre class="text-center my2"> 10% off</pre>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/160x160/?maggi" alt="">
+
+                        <div class="lines">
+                            <pre class="text-center my2">Maggi</pre>
+                            <pre class="text-center my2"> 5% off</pre>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/160x160/?cake" alt="">
+
+                        <div class="lines">
+                            <pre class="text-center my2">Cake</pre>
+                            <pre class="text-center my2"> 20% off</pre>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="card">
+                <h2 class="my1"> Fashion </h2>
+                <div class="cards">
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/160x160/?Fashion" alt="">
+
+                        <div class="lines">
+                            <pre class="text-center my2">Grab now</pre>
+                            <pre class="text-center my2"> 20% off</pre>
+                        </div>
+                    </div>
+
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/160x160/?Shirt" alt="">
+
+                        <div class="lines">
+                            <pre class="text-center my2">Lavis</pre>
+                            <pre class="text-center my2">10% off</pre>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/160x160/?sweater" alt="">
+
+                        <div class="lines">
+                            <pre class="text-center my2">Winter Collection</pre>
+                            <pre class="text-center my2">Grab Now</pre>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/160x160/?shoes" alt="">
+
+                        <div class="lines">
+                            <pre class="text-center my2">Shoes</pre>
+                            <pre class="text-center my2">20% off</pre>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/160x160/?hoodie" alt="">
+
+                        <div class="lines">
+                            <pre class="text-center my2">Hoodies</pre>
+                            <pre class="text-center my2">buy 1 get 1 free</pre>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/160x160/?jeans" alt="">
+
+                        <div class="lines">
+                            <pre class="text-center my2">Jeans</pre>
+                            <pre class="text-center my2">Best Quality</pre>
+                        </div>
+                    </div>
+                    <div class="card-item">
+                        <img src="https://source.unsplash.com/160x160/?jacket" alt="">
+
+                        <div class="lines">
+                            <pre class="text-center my2">Denium Jacket</pre>
+                            <pre class="text-center my2">10% off</pre>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="foot">
+            <p>Copyright &copy; Filpkart</p>
+
+        </div>
+
+    </footer>
+</body>
+
+</html>
