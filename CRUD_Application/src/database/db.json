@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "name": "Ashis Roy",
+      "username": "ashisroy",
+      "email": "asn@26",
+      "phone": "1254",
+      "id": 1
+    },
+    {
+      "name": "Aditya Roy",
+      "username": "adiroy",
+      "email": "adi@26",
+      "phone": "8717",
+      "id": 2
+    },
+    {
+      "name": "Anita Roy",
+      "username": "anitaroy",
+      "email": "anita@26",
+      "phone": "4569",
+      "id": 3
+    },
+    {
+      "name": "Virat",
+      "username": "viratkohli",
+      "email": "vk@18",
+      "phone": "147",
+      "id": 4
+    },
+    {
+      "name": "Lionel Messi",
+      "username": "Leo",
+      "email": "Messi@10",
+      "phone": "1545635",
+      "id": 5
+    },
+    {
+      "name": "Cristiano Ronaldo",
+      "username": "CR7",
+      "email": "Ronaldo@7",
+      "phone": "7549546",
+      "id": 6
+    }
+  ]
+}
